@@ -1,0 +1,10 @@
+{
+  "name": "pasteldesign/api",
+  "description": "api",
+  "license": "proprietary",
+  "require": {
+    "intervention/image": "2.*",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
