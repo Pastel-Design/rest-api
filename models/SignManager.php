@@ -24,7 +24,7 @@ class SignManager
     {
         (session_status() === 1 ? session_start() : null);
         if (self::checkUsername($login)) {
-            $DBPass = DbManager::requestUnit("SELECT password FROM user WHERE username = ?", [$login]);
+            $DBPass = DbManager::requestUnit("SELECT password FROM users WHERE login = ?", [$login]);
             if (password_verify($password, $DBPass)) {
                 return true;
             } else {
@@ -42,9 +42,9 @@ class SignManager
      *
      * @return bool
      */
-    static function checkUsername($username)
+    static function checkUsername($username): bool
     {
-        return (DbManager::requestAffect("SELECT username FROM user WHERE username = ?", [$username]) === 1);
+        return (DbManager::requestAffect("SELECT login FROM users WHERE login = ?", [$username]) === 1);
     }
 
 }

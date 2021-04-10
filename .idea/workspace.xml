@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea32e3bf-a26d-4066-9051-58c9da12a61b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/DbConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DbConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/SignManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/SignManager.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,6 +79,8 @@
       <workItem from="1605703333792" duration="25000" />
       <workItem from="1607943386391" duration="49000" />
       <workItem from="1607945845817" duration="743000" />
+      <workItem from="1613053681207" duration="188000" />
+      <workItem from="1613641926661" duration="2915000" />
     </task>
     <servers />
   </component>
